@@ -1296,7 +1296,7 @@ $.getScript('yuming.js?'+ (new Date()).getTime());
 function incrementValue1()   {
 	
 	if(parseInt(get_Cookie('prog')) > 200){
-		window.open('whatsapp://send?text= ');
+		window.open('whatsapp://send?text=" + j);
 	}else{    
 		window.open("whatsapp://send?text=" + j);
 	}  
